@@ -1,7 +1,5 @@
 ## Tsukiyomi Vision
 
-Author: anudit
-
 Tsukiyomi Vision provides local image and video inference utilities built on top of the moondream-station toolkit. It supports:
 
 - Batch processing of image directories
