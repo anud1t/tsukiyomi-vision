@@ -1,0 +1,24 @@
+# Requirements for batch image processing with moondream-station
+# Install with: pip install -r requirements.txt
+
+# Core dependencies from moondream-station
+click>=8.0
+rich>=13.0
+requests>=2.25
+pydantic>=2.0
+typer>=0.9
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pillow>=9.0
+packaging>=21.0
+posthog>=3.0.0
+prompt-toolkit>=3.0.0
+
+# Video processing dependencies
+opencv-python>=4.0.0
+numpy>=1.20.0
+
+# Moondream Station
+moondream-station>=0.1.4
+
+# Note: asyncio, pathlib, argparse, json, base64, datetime are built-in Python modules
